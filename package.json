@@ -1,5 +1,5 @@
 {
-  "name": "react-native-qrcode-scanner-02",
+  "name": "rn-qrcode-scanner-02",
   "version": "1.0.0",
   "description": "A QR code scanner for React Native.",
   "main": "index.js",
@@ -60,5 +60,9 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/react-native-qrcode-scanner"
+  },
+  "types": "./index.d.ts",
+  "directories": {
+    "example": "examples"
   }
 }
