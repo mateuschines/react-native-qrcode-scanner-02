@@ -1,12 +1,13 @@
 {
-  "name": "rn-qrcode-scanner-02",
+  "name": "react-native-qrcode-scanner-02",
   "version": "1.0.0",
   "description": "A QR code scanner for React Native.",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "lint-staged"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "nativePackage": true,
+  "precommit": "lint-staged",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mateuschines/react-native-qrcode-scanner-02.git"
@@ -34,8 +35,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^4.19.1",
     "eslint-plugin-react-native": "^3.8.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
     "prettier": "^1.12.1"
   },
   "peerDependencies": {
